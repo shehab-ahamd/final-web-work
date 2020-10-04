@@ -1,0 +1,121 @@
+*{
+    font-family:Cairo ;
+    margin: 5px;
+    
+    
+}
+html {
+    height: 100%;
+}
+
+body {
+    background: #51adcf;
+/* background-image: url(./background.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #84a9ac;
+    height: 100%;
+}
+.menu {
+    background-color: #204051;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 8px 8px 8px black;
+    margin-bottom: 10px;
+    
+  }
+  .menu2 {
+    background-color: #204051;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 8px 8px 8px black;
+    margin-bottom: 10px;
+    
+  }
+  .menu3 {
+    background-color:  #7095a8;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+  
+  }
+  .imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .menu-feed{
+    /* display: flex;
+    flex-wrap: wrap;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color:  #3b6978;
+  color: black;
+  text-align: center; */
+  display : flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:50px;
+  height: 50px;
+  color: black;
+  padding-top: 5px;
+
+}
+
+.menu-title {
+  display: block;
+}
+
+.warp{
+     display: flex;
+   flex-wrap : wrap;
+ }
+ h6{
+    font-size:100px;
+    font-weight: bold;
+}
+h7{
+    font-size:50px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+  p{
+      padding-top: 5px;
+  }
+img{
+  height:auto;
+  width:80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}

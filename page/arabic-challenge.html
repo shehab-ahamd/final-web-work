@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style4.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> علمني , تحدي</title>
+</head>
+<body>
+    <div class="menu warp ">
+        <h1>تحدي بسيط يمكنك معرفة الحرف الذي يبدأ فيه الحيواان</h1>
+
+        
+    </div>
+    <div class="menu2 warp ">
+        <h3>يمكنك الضغط على الحيوان لسماع  اسمة</h3>
+        <!-- =========================================================================== -->
+        <center>
+            <audio id="DD">
+                <source src="../arabic-challenge/bta.mp3" type="audio/mpeg"  >
+            </audio>
+            <div onclick="DDD()"><img src="../img/btta.jpg" alt="بطة"></div>            
+        </center>
+        <!-- =========================================================================== -->
+        <center>
+            <audio id="AA">
+                <source src="../arabic-challenge/bazz.mp3" type="audio/mpeg"  >
+            </audio>
+            <div class=" menu3" onclick="AAA()"><h6> أ </h6></div>            
+        </center>
+        <!-- =========================================================================== -->
+        <center>
+            <audio id="BB">
+                <source src="../arabic-challenge/bazz.mp3" type="audio/mpeg"  >
+            </audio>
+            <div class=" menu3" onclick="BBB()"><h6> ي </h6></div>            
+        </center>
+        <!-- ===========================الحرف الصحيحة================================== -->
+        <a href="./arabic-challenge2.html">
+    
+            <div class="menu3"><h6>ب</h6></div>
+   
+        </a>
+        <!-- =========================================================================== -->
+        <center>
+            <audio id="CC">
+                <source src="../arabic-challenge/bazz.mp3" type="audio/mpeg"  >
+            </audio>
+            <div class=" menu3" onclick="CCC()"><h6> س </h6></div>            
+        </center>
+
+
+       
+       
+        
+    </div>
+    <script>
+         var AA = document.getElementById("AA");
+        function AAA(){
+                AA.play();
+        }
+        var BB = document.getElementById("BB");
+        function BBB(){
+                BB.play();
+        }
+        var CC = document.getElementById("CC");
+        function CCC(){
+                CC.play();
+        }
+        var DD = document.getElementById("DD");
+        function DDD(){
+                DD.play();
+        }
+    </script>
+</body>
+</html>
+ 
