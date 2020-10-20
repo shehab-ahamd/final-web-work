@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علمني , الجملة الفعلية</title>
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+     <!--  محتوى الصفحة  -->
+     <div class="menu warp ">
+        <h1 class="menu-title">  الجملة الفعلية...  </h1>
+        <hr />
+        <div class="imgs ">
+       
+            <div id="end" class="menu-feed warp"><h6> -..... شهاب الى الجمعية .</h6></div>
+     
+        
+        </div>
+            <hr />
+            <p>
+                <b>رسالة مساعدة من مبرمج الموقع :</b> اكتب في الاسفل الفعل  المناسب للجملة الفعلية    .            <br />
+              
+
+            </div>
+            <div class="menu warp ">
+                <h1 class="menu-title">  الفعل المناسب للجملة الفعلية   </h1>
+                <hr />
+                <input id="one" type="text" placeholder="الفعل">
+                <!-- <input id="tow" type="text" placeholder="الفاعل"> -->
+                <input onclick="lol();" id="three" type="button" value=" بناء جملة فعلية">
+                </div>
+               
+        
+                    </div>
+                    <script>
+                        function lol(){
+                        let one = document.getElementById("one").value;
+                        // let tow = document.getElementById("tow").value;
+                        document.getElementById("end").innerHTML = `${one} شهاب الى الجمعية . `;
+                        }
+                    </script>
+</body>
+</html>

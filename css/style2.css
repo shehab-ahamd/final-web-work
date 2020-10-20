@@ -1,7 +1,7 @@
 *{
     font-family:Cairo ;
     margin: 0;
-    
+    border-radius: 18px;
     
 }
 html {
@@ -9,15 +9,17 @@ html {
 }
 
 body {
-    background: #51adcf;
+    background: #08d9d6;
 /* background-image: url(./background.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #84a9ac;
+    /* background-color: #84a9ac; */
     height: 100%;
 }
 .menu {
-    background-color: #204051;
+  background: rgb(255,46,99);
+  background: radial-gradient(circle, rgba(255,46,99,0.95) 100%, rgba(255,46,99,0.95) 100%);  padding: 25px;
+
     padding: 25px;
     height: auto;
     width: auto;
@@ -44,7 +46,7 @@ body {
   width: 200px;
   height: 200px;
   margin: 10px;
-  background-color:  #3b6978;
+  background-color:  #eaeaea;
   color: black;
   text-align: center;
   padding-top: 100px;

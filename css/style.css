@@ -1,7 +1,7 @@
 *{
             font-family:Cairo ;
             margin: 0;
-            
+            border-radius: 18px;
             
 }
 html {
@@ -9,12 +9,13 @@ html {
   }
 
  body {
-            background: #51adcf;
+            /* background: #51adcf; */
         /* background-image: url(./background.jpg); */
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: #84a9ac;
-            height: 100%;
+            /* background: rgb(0,212,255); */
+         background: #08d9d6;
+           height: 100%;
   }
   h3{
     padding: center;  
@@ -37,10 +38,10 @@ html {
             
     }
       .navbar {
-            background-color:#3b6978 ;
-            color: white;
-            padding-bottom: 10px;
-            display: flex;
+        /* background: #252a34; */
+        background: rgb(50,18,122);
+background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgba(50,18,122,0.9528186274509804) 100%);
+          display: flex;
             flex-direction: column;
             border-radius: 12px;
             box-shadow: 5px 5px 8px black;
@@ -60,6 +61,7 @@ html {
       }
       .title {
             text-align: center;
+            color: white;
       }
       .head-li {
                 display: inline;
@@ -71,9 +73,21 @@ html {
     }
       
   /* ------------------(المحتوى)------------------ */
-  img {
+  .img21{
+        width: 150px;
+        height: 150px;
         margin:auto ;
-        justify-content: center;
+        padding: auto;
+        border-radius: 50%;
+        
+  }
+  .img22 {
+    width: 25px;
+    height: 25px;
+       margin:auto ;
+       padding: 10px;
+       border-radius: 50%;
+        /*  justify-content: center;
         flex-direction:row ;
         width: 25px;
         height: 25px;
@@ -82,11 +96,21 @@ html {
         padding-right: 80px;
         padding-left: 80px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: auto; */
 
   }
+  .img23{
+    width: 75px;
+    height: 75px;
+    margin:auto ;
+    padding: auto;
+    border-radius: 50%;
+    
+}
   .menu {
-    background-color: #204051;
+    background: rgb(255,46,99);
+    background: radial-gradient(circle, rgba(255,46,99,0.95) 100%, rgba(255,46,99,0.95) 100%);  padding: 25px;
+  
     padding: 25px;
     height: auto;
     width: auto;
@@ -114,7 +138,7 @@ html {
     width: 200px;
     height: 200px;
     margin: 10px;
-    background-color:  #3b6978;
+    background-color:  #eaeaea;
     color: black;
     text-align: center;
     padding-top: 5px;
@@ -139,7 +163,9 @@ html {
        margin-left: 10px;
        margin-bottom: 10px;
        flex-wrap: wrap;
-       background-color: #3b6978;
+       /* background-color: #252a34; */
+       background: rgb(50,18,122);
+       background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgba(50,18,122,0.9528186274509804) 100%);
        border-radius: 12px;
        padding: center;
        padding-top: 5px;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علمني ,  الجملة الأسمية</title>
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+     <!--  محتوى الصفحة  -->
+     <div class="menu warp ">
+        <h1 class="menu-title">  الجملة الأسمية...  </h1>
+        <hr />
+        <div class="imgs ">
+        <a href="./sentence1.html">
+            <div id="end" class="menu-feed warp"><h6> -....... يحب ...كرة القدم كل يوم .</h6></div>
+        </a>
+        
+        </div>
+            <hr />
+            <p>
+            <b>رسالة مساعدة من مبرمج الموقع :</b> اكتب في الاسفل المبتدأ و الخبر المناسبين للجملة الأسمية    .
+            <br />
+              
+
+            </div>
+            <div class="menu warp ">
+                <h1 class="menu-title">  مبتدأ و خبر الجملة الأسمية   </h1>
+                <hr />
+                <input id="one" type="text" placeholder="المبتدأ">
+                <input id="tow" type="text" placeholder="الخبر">
+
+                <input onclick="lol();" id="three" type="button" value="بناء جملة أسمية">
+                </div>
+               
+        
+                    </div>
+                    <script>
+                        function lol(){
+                        let one = document.getElementById("one").value;
+                        let tow = document.getElementById("tow").value;
+                        document.getElementById("end").innerHTML = `${one} يحب ${tow} كرة القدم كل يوم `;
+                        }
+                    </script>
+</body>
+</html>
