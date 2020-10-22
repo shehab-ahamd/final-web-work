@@ -74,8 +74,8 @@ background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgb
       
   /* ------------------(المحتوى)------------------ */
   .img21{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         margin:auto ;
         padding: auto;
         border-radius: 50%;
@@ -84,19 +84,10 @@ background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgb
   .img22 {
     width: 25px;
     height: 25px;
-       margin:auto ;
+       margin: auto;
        padding: 10px;
        border-radius: 50%;
-        /*  justify-content: center;
-        flex-direction:row ;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        padding-top:10px;
-        padding-right: 80px;
-        padding-left: 80px;
-        margin-right: auto;
-        margin-left: auto; */
+        
 
   }
   .img23{
@@ -179,6 +170,16 @@ background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgb
         border-radius: 50%;
         padding-top:10px ;
     }
+    .centter2{
+      margin:auto ;
+      display:flex;
+      justify-content: center;
+      width: auto;
+      height: auto;
+      border-radius: 50%;
+      padding-top:10px ;
+      padding-bottom:10px ;
+  }
     h6{
         font-size: 42px;
     }

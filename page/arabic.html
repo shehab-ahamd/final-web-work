@@ -5,10 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>علمني , اللغة العربية</title>
     <link rel="stylesheet" href="../css/style2.css">
+    <style>
+    
+      
+        
+        /* Add animation to "page content" */
+        .animate-left {
+          position: relative;
+          -webkit-animation-name: animateleft;
+          -webkit-animation-duration: 1.5s;
+          animation-name: animateleft;
+          animation-duration: 1.5s
+        }
+        
+        @-webkit-keyframes animateleft {
+          from { left:-100px; opacity:0 } 
+          to { left:0px; opacity:1 }
+        }
+        
+        @keyframes animateleft { 
+            from{ left:-100px; opacity:0 } 
+          to{ left:0; opacity:1 }
+        }
+        
+        #myDiv {
+          display: none;
+          text-align: center    ;
+        }
+        </style>
 </head>
-<body>
-     <!--  محتوى الصفحة  -->
-     <div class="menu warp ">
+<body onload="myFunction()" style="margin:0;">
+
+
+    <div style="display:none;" id="myDiv" class="animate-left">
+
+        <div class="menu warp ">
         <h1 class="menu-title">اللغة العربية ... احسنت الاختيار</h1>
         <hr />
         <div class="imgs ">
@@ -31,7 +62,18 @@
                 يمكنك روية وتركيب الجمل عبر ضغطك على <b>الجمل الفعلية و الأسمية</b> في الاعلى .
             </p>
             
-
+        </div>
             </div>
+            <script>
+                var myVar;
+                
+                function myFunction() {
+                  myVar = setTimeout(showPage, 1000);
+                }
+                
+                function showPage() {
+                  document.getElementById("myDiv").style.display = "block";
+                }
+                </script>
 </body>
 </html>
