@@ -156,9 +156,12 @@ color: black;
   display: flex;
   justify-content: center;
 }
-/* ///////////////////////////////////////////// */
-/* .lola{
-  width:350px;
-  height: 300;
-} */
-/* ///////////////////////////////////////////// */
+
+
+ .bttn{
+    width: 150px;
+    height: auto;
+    margin: 25px;
+    font-size: x-large;
+    outline: none;
+  }

@@ -99,3 +99,10 @@ margin: 20px;
       display: flex;
       justify-content: center;
   }
+  .bttn{
+    width: 150px;
+    height: auto;
+    margin: 25px;
+    font-size: x-large;
+    outline: none;
+  }

@@ -186,3 +186,10 @@ background: radial-gradient(circle, rgba(50,18,122,0.9528186274509804) 100%, rgb
     a {
         text-decoration: none;
       }
+      .bttn{
+        width: 150px;
+        height: auto;
+        margin: 25px;
+        font-size: x-large;
+        outline: none;
+      }

@@ -154,3 +154,10 @@ color: black;
 .ti{
   font-size: xx-large;
 }
+.bttn{
+  width: 150px;
+  height: auto;
+  margin: 25px;
+  font-size: x-large;
+  outline: none;
+}

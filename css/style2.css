@@ -68,3 +68,10 @@ a {
   p{
       padding-top: 5px;
   }
+  .bttn{
+    width: 150px;
+    height: auto;
+    margin: 25px;
+    font-size: x-large;
+    outline: none;
+  }
